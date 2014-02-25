@@ -1,0 +1,9 @@
+MSYS-1.0.12 Build:2012-07-05 14:56
+Exception: STATUS_ACCESS_VIOLATION at eip=6805006F
+eax=00000001 ebx=00006F00 ecx=7614A4E8 edx=00880178 esi=0028FC0C edi=0028F80C
+ebp=65657020 esp=0028F684 program=C:\Users\rontech\AppData\Local\GitHub\PortableGit_054f2e797ebafd44a30203088cd3d58663c627ef\bin\sh.exe
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+ 208904 [main] sh 4000 handle_exceptions: Exception: STATUS_ACCESS_VIOLATION
+ 243576 [main] sh 4000 handle_exceptions: Error while dumping state (probably corrupted stack)
